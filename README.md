@@ -12,4 +12,4 @@ To deploy the website to a hosting service, push your changes to the hosting ser
 
 ## License
 
-This project is licensed under the [insert license here] license. See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the [Apache License 2.0] license. See the [LICENSE.md](LICENSE.md) file for details.
