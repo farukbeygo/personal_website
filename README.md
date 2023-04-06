@@ -1,6 +1,6 @@
-# [farukbeygo]'s Portfolio Website
+# Portfolio Website
 
-This is [farukbeygo]'s portfolio website, which showcases [farukbeygo]'s work and projects. It includes an about section, a projects section, and a contact form.
+This is my portfolio website, which showcases my work and projects. It includes an about section, a projects section, and a contact form.
 
 ## Installation
 
