@@ -4,7 +4,7 @@ This is my portfolio website, which showcases my work and projects. It includes 
 
 ## Installation
 
-To install and run the website locally, clone the repository and run `npm start`.
+To install and run the website locally, clone the repository and run `node index.js`.
 
 ## Deployment
 
