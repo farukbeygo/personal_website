@@ -1,0 +1,221 @@
+/* Default mode styles */
+body {
+  background-color: #ffffff;
+  color: #333333;
+  transition: background-color 0.5s ease;
+}
+
+/* Night mode styles */
+body.night-mode {
+  background-color: #333333;
+  transition: background-color 0.5s ease;
+}
+
+.about-me {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+.container {
+  margin-top: 50px; /* adjust this value as needed */
+}
+
+.link-box {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link-box .btn {
+  background-color: #007bff;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.link-box .btn:hover {
+  background-color: #0069d9;
+  cursor: pointer;
+}
+
+/* Style the image */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Style the lead paragraph */
+.font-size-lg {
+  font-size: 1.2rem;
+}
+
+.links-box {
+  display: flex;
+  justify-content: center;
+}
+
+.links-box a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.links-box a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 767px) {
+  .links-box {
+    margin-top: 30px;
+  }
+}
+
+
+
+/* Default mode styles */
+.navbar {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Night mode styles */
+body.night-mode .navbar {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.card {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #888;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section-title h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: #f8f9fa;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.box h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.box ul {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.box li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.box:last-child {
+  margin-bottom: 0;
+}
+
+.section-container {
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+.section-container h2 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.job-container {
+  border: 2px solid #222;
+  padding: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #fff;
+}
+
+.job-container:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid #222;
+  top: -5px;
+  left: -5px;
+  z-index: -1;
+}
+
+.job-container h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.job-container p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.job-container ul {
+  margin: 0;
+  padding: 0;
+}
+
+.job-container ul li {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+body.night-mode #abouttag {
+  color: #fff;
+}
+
+
+
+
+
