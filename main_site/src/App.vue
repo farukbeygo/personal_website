@@ -29,26 +29,167 @@
           <p>I am a proactive and dedicated individual, as evidenced by my role as one of the founders of the Bilkent Mathematical Society (BMS), where I currently serve as the organization manager. Through my leadership, I have helped foster a community of mathematics enthusiasts, organizing various events and activities aimed at promoting mathematics education and research. As part of this effort, I am currently developing a website for the Mathematical Society, using my experience gained from a previous internship in website development.</p>
           <br>
           <p>Overall, my passion for mathematics, coding, and data science, coupled with my leadership and organizational skills, make me an ideal candidate for any position in the field.</p>
-          <br>
+
+          <div class="section-header">Experience</div>
+          <div class="section-content">
+            <ul>
+              <li>Backend Intern - Nart Informatics (Dec 2022-Jan 2023)</li>
+              <li>Organization Manager - Bilkent Mathematical Society (Aug 2022-present)</li>
+            </ul>
+          </div>
+
+          <div class="section-header">Education</div>
+          <div class="section-content">
+            <ul>
+              <li>Bachelor of Science - BS, Bilkent University (2021-present)</li>
+              <li>English Language Preparatory Program, Bilkent University (2020-2021)</li>
+              <li>High School Diploma, Kırıkkale Atatürk Anadolu Lisesi (2016-2020)</li>
+            </ul>
+          </div>
         </div>
-        <div class="section-header">Experience</div>
-        <div class="section-content">
-          <ul>
-            <li>Backend Intern - Nart Informatics (Dec 2022-Jan 2023)</li>
-            <li>Organization Manager - Bilkent Mathematical Society (Aug 2022-present)</li>
-          </ul>
-        </div>
-        <div class="section-header">Education</div>
-        <div class="section-content">
-          <ul>
-            <li>Bachelor of Science - BS, Bilkent University (2021-present)</li>
-            <li>English Language Preparatory Program, Bilkent University (2020-2021)</li>
-            <li>High School Diploma, Kırıkkale Atatürk Anadolu Lisesi (2016-2020)</li>
-          </ul>
+        <div>
+          <div class="container my-5" id="skills">
+            <div class="row justify-content-center">
+              <div class="col-md-4">
+                <div class="skill-box">
+                  <div class="section-header">Skills</div>
+                  <div class="section-content">
+                    <h3>Languages</h3>
+                    <ul>
+                      <li>Python</li>
+                      <li>C++</li>
+                      <li>Java</li>
+                      <li>JavaScript</li>
+                      <li>PHP</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="skill-box">
+                    <h3>Data Frameworks</h3>
+                    <ul>
+                      <li>Pandas</li>
+                      <li>Numpy</li>
+                      <li>Scikit-Learn</li>
+                      <li>TensorFlow</li>
+                      <li>Keras</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="skill-box">
+                    <h3>Web Technologies</h3>
+                    <ul>
+                      <li>HTML/CSS</li>
+                      <li>Bootstrap</li>
+                      <li>React</li>
+                      <li>Angular</li>
+                      <li>Node.js</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="skill-box">
+                    <h3>Databases</h3>
+                    <ul>
+                      <li>MySQL</li>
+                      <li>PostgreSQL</li>
+                      <li>MongoDB</li>
+                      <li>SQLite</li>
+                      <li>Oracle</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="skill-box">
+                    <h3>Operating Systems & Tools</h3>
+                    <ul>
+                      <li>Linux</li>
+                      <li>Git</li>
+                      <li>Docker</li>
+                      <li>Jupyter Notebook</li>
+                      <li>Visual Studio Code</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="skill-box">
+                    <h3>Design</h3>
+                    <ul>
+                      <li>Adobe Photoshop</li>
+                      <li>Adobe Illustrator</li>
+                      <li>Sketch</li>
+                      <li>Figma</li>
+                      <li>InVision</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container my-5" id="portfolio">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h2>Portfolio</h2>
+                  <hr>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#project1" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <h4>Project 1</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#project2" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <h4>Project 2</h4>
+                    <p class="text-muted">Duis aute irure dolor in reprehenderit</p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                  <a href="#project3" class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                      <div class="portfolio-hover-content">
+                        <i class="fas fa-plus fa-3x"></i>
+                      </div>
+                    </div>
+                    <img src="https://via.placeholder.com/600x400" class="img-fluid" alt="">
+                  </a>
+                  <div class="portfolio-caption">
+                    <h4>Project 3</h4>
+                    <p class="text-muted">Excepteur sint occaecat cupidatat non proident</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>
   </div>
+
+
+
 
 
 </template>
