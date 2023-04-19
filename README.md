@@ -1,15 +1,29 @@
-# Portfolio Website
+# vue_try
 
-This is my portfolio website, which showcases my work and projects. It includes an about section, a projects section, and a contact form.
+This template should help get you started developing with Vue 3 in Vite.
 
-## Installation
+## Recommended IDE Setup
 
-To install and run the website locally, clone the repository and run `node index.js`.
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Deployment
+## Customize configuration
 
-To deploy the website to a hosting service, push your changes to the hosting service.
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## License
+## Project Setup
 
-This project is licensed under the [Apache License 2.0] license. See the [LICENSE](https://github.com/farukbeygo/personal_website/blob/main/LICENSE) file for details.
+```sh
+npm install
+```
+
+### Compile and Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
