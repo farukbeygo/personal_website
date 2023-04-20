@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.big-heading {
+  text-align: center;
+  margin-top: 15vh;
+  margin-bottom: 0%;
+  transform: translateY(-50%);
+  color: aliceblue;
+}
+
+.sub-heading {
+  text-align: center;
+  margin-top: 0%;
+  transform: translateY(-50%);
+  color: aliceblue;
+}
+
+.links {
+  text-align: center;
+  margin-top: 1cm;
+  transform: translateY(-50%);
+  color: aliceblue;
+}
+
+.masthead {
+  margin-bottom: 2rem;
+}
+
+#canvas {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(10px);
+  opacity: 0.7;
+  
+}
+
+#page {
+  display: block;
+  padding-bottom: 225px;
+}
+
+.icon-box {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.icon-box a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.icon-box a:hover {
+  background-color: #fff;
+}
+
+.fa-github,
+.fa-envelope,
+.fa-linkedin {
+  font-size: 20px;
+}
