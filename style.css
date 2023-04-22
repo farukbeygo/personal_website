@@ -98,15 +98,29 @@ canvas {
 
 .container {
   background-color: #fff;
-	min-height: 100%; /* makes the container extend to the full height of the viewport */
+	min-height: 250%; /* makes the container extend to the full height of the viewport */
   min-width: 100%;
   margin-top: 4cm;
 }
 
-.cv_box {
-  margin-top: 1cm;
+
+#skills ul li {
+  list-style: none;
+  padding-left: 1em;
+  position: relative;
 }
 
-.col-md-6 {
-  margin-top: 1cm;
+#skills ul li:before {
+  content: "\2022";
+  color: #007bff;
+  font-size: 1.2em;
+  position: absolute;
+  left: 0;
 }
+
+#skills {
+  margin-top: 0%;
+}
+
+
+
