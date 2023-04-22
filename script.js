@@ -9,7 +9,7 @@ const debugObject = {
   waveDepthColor: "#1e4d40",
   waveSurfaceColor: "#4d9aaa",
   fogNear: 1,
-  fogFar: 4,
+  fogFar: 3,
   fogColor: "#8e99a2" };
 
 
@@ -42,11 +42,11 @@ const waterMaterial = new THREE.ShaderMaterial({
   uniforms: {
     uTime: { value: 0 },
     uMouse: { value: new THREE.Vector2() },
-    uBigWavesElevation: { value: 0.2 },
-    uBigWavesFrequency: { value: new THREE.Vector2(4, 2) },
-    uBigWaveSpeed: { value: 0.75 },
+    uBigWavesElevation: { value: 0.1 },
+    uBigWavesFrequency: { value: new THREE.Vector2(5, 2) },
+    uBigWaveSpeed: { value: 0.5 },
     // Small Waves
-    uSmallWavesElevation: { value: 0.15 },
+    uSmallWavesElevation: { value: 0.1 },
     uSmallWavesFrequency: { value: 3 },
     uSmallWavesSpeed: { value: 0.2 },
     uSmallWavesIterations: { value: 4 },
@@ -72,7 +72,7 @@ const sizes = {
   width: window.innerWidth,
   height: window.innerHeight };
 
-
+/** 
 window.addEventListener("resize", () => {
   // Update sizes
   // sizes.width = window.innerWidth;
@@ -86,6 +86,7 @@ window.addEventListener("resize", () => {
   // renderer.setSize(sizes.width, sizes.height);
   // renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 });
+*/
 
 /**
  * Camera
@@ -99,15 +100,16 @@ sizes.width / sizes.height,
 100);
 
 camera.position.set(1, 1, 1);
-scene.add(camera);
+// scene.add(camera);
 
 // Controls
-const controls = new THREE.OrbitControls(camera, canvas);
-controls.enableDamping = true;
+// const controls = new THREE.OrbitControls(camera, canvas);
+// controls.enableDamping = true;
 
 /**
  * Renderer
  */
+
 const renderer = new THREE.WebGLRenderer({
   canvas: canvas });
 
@@ -224,7 +226,7 @@ const tick = () => {
   const elapsedTime = clock.getElapsedTime();
 
   // Update controls
-  controls.update();
+  // controls.update();
 
   // Update time
   waterMaterial.uniforms.uTime.value = elapsedTime;
