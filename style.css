@@ -1,18 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
 body {
-  overflow: hidden;
+  height: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .webgl {
   position: fixed;
+  z-index: -1;
   top: 0;
   left: 0;
-  outline: none;
 }
 
 canvas {
@@ -89,4 +94,19 @@ canvas {
 .fa-envelope,
 .fa-linkedin {
   font-size: 20px;
+}
+
+.container {
+  background-color: #fff;
+	min-height: 100%; /* makes the container extend to the full height of the viewport */
+  min-width: 100%;
+  margin-top: 4cm;
+}
+
+.cv_box {
+  margin-top: 1cm;
+}
+
+.col-md-6 {
+  margin-top: 1cm;
 }
