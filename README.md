@@ -18,7 +18,6 @@ Then, you can open the `index.html` file in your web browser to view the website
 The website includes the following features:
 
 * A responsive design that adapts to different screen sizes
-* A navigation menu with links to different sections of the website
 * An about section with a brief description of myself
 * A portfolio section with a list of my projects
 * A contact form that allows visitors to send me messages
