@@ -1,29 +1,32 @@
-# vue_try
+# Personal Website
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a repository for my personal website. The website is built using basic web technologies such as HTML, CSS, and JavaScript.
 
-## Recommended IDE Setup
+## Getting Started
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+To get started with this project, you can clone the repository to your local machine using the following command:
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+git clone https://github.com/farukbeygo/personal_website
 ```
 
-### Compile and Hot-Reload for Development
 
-```sh
-npm run dev
-```
+Then, you can open the `index.html` file in your web browser to view the website.
 
-### Compile and Minify for Production
+## Features
 
-```sh
-npm run build
-```
+The website includes the following features:
+
+* A responsive design that adapts to different screen sizes
+* A navigation menu with links to different sections of the website
+* An about section with a brief description of myself
+* A portfolio section with a list of my projects
+* A contact form that allows visitors to send me messages
+
+## Contributing
+
+If you would like to contribute to this project, feel free to submit a pull request.
+
+## License
+
+This project is licensed under the  Apache-2.0 license.
